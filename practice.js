@@ -65,10 +65,23 @@ Random - gives you number between 0 and 1
 // ==, ===, >, <, <=, >=, !=, !==
 
 // Functions
-function sayMyName(){
+function sayMyName() {
   console.log('Labi')
 }
 
-sayMyName()
+// sayMyName()
 
-// Type casting||
+function sayMyName2(name) {
+  console.log(name)
+}
+
+// sayMyName2('Sulejmani')
+
+function greeting(name) {
+  greet = 'Hi ' + name + ', Nice to meet you!'
+  console.log(greet)
+}
+
+greeting("Labiiii")
+
+// Type casting
