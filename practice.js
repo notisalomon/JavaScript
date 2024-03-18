@@ -1,4 +1,4 @@
-console.log('Hello World')
+/* console.log('Hello World')
 console.log('Labinot')
 
 // variables
@@ -6,8 +6,7 @@ let name = 'Peter Pan'
 console.log(name)
 
 let sentence = 'how are you doing today, nice to see you, hope you have a great day!'
-console.log(sentence)
-
+console.log(sentence)*/
 
 
 // operators
@@ -54,17 +53,22 @@ Random - gives you number between 0 and 1
 // Baby weather app (conditionals)
 // if rain then 'Grab your umbrella emoji'
 // else 'Wear your sunglasses emoji'
-let weather = prompt('What is the weather like?')
-if (weather == 'rainy') {
-  console.log('Grab your umberella ☂️')
-}
-else {
-  console.log('Wear your sunglasses 😎')
-}
+// let weather = prompt('What is the weather like?')
+// if (weather == 'rainy') {
+//   console.log('Grab your umberella ☂️')
+// }
+// else {
+//   console.log('Wear your sunglasses 😎')
+// }
 
 // conditional operators
 // ==, ===, >, <, <=, >=, !=, !==
 
 // Functions
+function sayMyName(){
+  console.log('Labi')
+}
 
-// Type casting
+sayMyName()
+
+// Type casting||
