@@ -78,7 +78,7 @@ function sayMyName2(name) {
 // sayMyName2('Sulejmani')
 
 function greeting(name) {
-  greet = 'Hi ' + name + ', Nice to meet you!'
+  greet = `Hi ${name}, nice to meet you!`
   console.log(greet)
 }
 
