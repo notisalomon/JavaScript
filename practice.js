@@ -90,6 +90,7 @@ function greeting(name) {
 // greeting("Labiiii")
 
 function sum(a, b) {
+  // return
   return a + b
 }
 
