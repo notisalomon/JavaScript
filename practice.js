@@ -97,11 +97,24 @@ Random - gives you number between 0 and 1
 // num1 = sum(1, 2)
 // console.log(num1)
 
-function calculateFoodTotal(food, tip) {
-  const tipPercentage = tip / 100
-  const tipAmount = food * tipPercentage
-  const total = sum(food, tipAmount)
-  return total
+// function calculateFoodTotal(food, tip) {
+//   const tipPercentage = tip / 100
+//   const tipAmount = food * tipPercentage
+//   const total = sum(food, tipAmount)
+//   return total
+// }
+
+// console.log(calculateFoodTotal(300, 20))
+
+// ES6
+// Arrow Functions =>
+// Arrow function with explicit return
+const sumArrow = (a, b) => {
+  return a + b
 }
 
-console.log(calculateFoodTotal(300, 20))
+// arrow function with implicit return
+// IMPORTANT: For implicit return, remove curly braces
+const sumArrow2 = (a, b) => a + b 
+
+console.log(sumArrow2(1, 8))
