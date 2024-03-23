@@ -117,4 +117,11 @@ const sumArrow = (a, b) => {
 // IMPORTANT: For implicit return, remove curly braces
 const sumArrow2 = (a, b) => a + b 
 
-console.log(sumArrow2(1, 8))
+// console.log(sumArrow2(1, 8))
+
+// Arrays
+const groceries = ['Banana', 'Apple', 'Orange', 'Pear']
+console.log(groceries)
+
+// grab the index defined in square braces
+console.log(groceries[1])
