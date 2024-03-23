@@ -89,11 +89,19 @@ Random - gives you number between 0 and 1
 
 // greeting("Labiiii")
 
-// function sum(a, b) {
-//   // return
-//   return a + b
-// }
+ function sum(a, b) {
+  // return
+   return a + b
+ }
 
 // num1 = sum(1, 2)
 // console.log(num1)
 
+function calculateFoodTotal(food, tip) {
+  const tipPercentage = tip / 100
+  const tipAmount = food * tipPercentage
+  const total = sum(food, tipAmount)
+  return total
+}
+
+console.log(calculateFoodTotal(300, 20))
