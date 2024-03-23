@@ -68,33 +68,32 @@ Random - gives you number between 0 and 1
 // this is a function called 'sayMyName'
 // it has no arguments
 // it logs out your name to the console
-function sayMyName() {
-  console.log('Labi')
-}
+// function sayMyName() {
+//   console.log('Labi')
+// }
 
 // sayMyName()
 // this is a function called 'sayMyName2'
 // it has 1 argument called 'name'
 // it logs out your name to the console
-function sayMyName2(name) {
-  console.log(name)
-}
+// function sayMyName2(name) {
+//   console.log(name)
+// }
 
 // sayMyName2('Sulejmani')
 // this is a function with 1 argument 
-function greeting(name) {
-  greet = `Hi ${name}, nice to meet you!`
-  console.log(greet)
-}
+// function greeting(name) {
+//   greet = `Hi ${name}, nice to meet you!`
+//   console.log(greet)
+// }
 
 // greeting("Labiiii")
 
-function sum(a, b) {
-  // return
-  return a + b
-}
+// function sum(a, b) {
+//   // return
+//   return a + b
+// }
 
-num1 = sum(1, 2)
-console.log(num1)
+// num1 = sum(1, 2)
+// console.log(num1)
 
-// Type casting
