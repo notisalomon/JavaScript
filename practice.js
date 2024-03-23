@@ -124,4 +124,21 @@ const groceries = ['Banana', 'Apple', 'Orange', 'Pear']
 console.log(groceries)
 
 // grab the index defined in square braces
-console.log(groceries[1])
+// console.log(groceries[2])
+
+// Array methods
+groceries.push('Cookie')
+console.log(groceries)
+
+groceries.push('Pite')
+console.log(groceries)
+
+// Array Slice
+// start from 0 INCLUSIVE and UP to 2 [0, 2]
+console.log(groceries.slice(0, 2))
+
+// Array indexOf
+console.log(groceries.indexOf('Pear'))
+
+// Array length
+console.log(groceries.length)
